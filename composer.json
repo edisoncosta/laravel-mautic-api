@@ -1,0 +1,30 @@
+{
+    "name": "keepcloud/laravel-mautic-api",
+    "description": "Free and Open Source Marketing Automation API",
+    "license": "MIT",
+    "keywords": ["mautic","laravel","lumen","keepcloud","api","sync","automation","email","marketing"],
+    "authors": [
+        {
+            "name": "Prince Ali Khan",
+            "email": "princealikhan08@gmail.com"
+        },
+        {
+            "name": "Edison Costa",
+            "email": "edison@keepcloud.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+            "php": ">=7.2.5",
+            "illuminate/contracts": "5.5.*|5.6.*|5.7.*|5.8.*|6.*",
+            "illuminate/support": "5.5.*|5.6.*|5.7.*|5.8.*|6.*",
+            "mautic/api-library":"2.16.1",
+            "guzzlehttp/guzzle": "^6.5",
+            "graham-campbell/manager": "^4.5"
+        },
+    "autoload": {
+        "psr-4": {
+            "Keepcloud\\Mautic\\": "src/"
+        }
+    }    
+}
