@@ -19,7 +19,7 @@
         "illuminate/contracts": "7.*|8.*",
         "illuminate/support": "7.*|8.*",
         "mautic/api-library":"3.0.0",
-        "guzzlehttp/guzzle": "^7.2",
+        "guzzlehttp/guzzle": "6.5.5",
         "graham-campbell/manager": "^4.5"
         },
     "autoload": {
