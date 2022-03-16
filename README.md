@@ -1,11 +1,11 @@
-## Mautic API in Laravel/lumen 6.
-Free and Open Source Marketing Automation API
+## Mautic API 3.x in Laravel 7 and 8.
+Free and Open Source Marketing Automation API 
 
 ## Requirements
-* PHP 5.5.* or newer
+* PHP >7.2.5
 * cURL support
 
-## Mautic Setup
+## Mautic Setup 
 The API must be enabled in Mautic. Within Mautic, go to the Configuration page (located in the Settings menu) and under API Settings enable
 Mautic's API.  You can also choose which OAuth2 protocol to use here.  After saving the configuration, go to the API Credentials page
 (located in the Settings menu) and create a new client.  Enter the callback/redirect URI that the request will be sent from.  Click Apply
